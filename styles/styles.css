@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/*
+@media (min-width: 768px) {
+}
+*/
+html, body {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 8px;
+}
+
+img {
+  width: 100%;
+}
+
+.header-container {
+  margin: 0;
+}
+.header-container a {
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+.header-container a:hover {
+  opacity: 0.8;
+}
+
+.navbtn {
+  top: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  padding: 5px 0;
+}
+.navbtn span {
+  display: block;
+  margin: 10px;
+  border-bottom: 3px solid #333;
+}
+@media (min-width: 768px) {
+  .navbtn span {
+    display: none; /* PCのときはボタンを表示しない */
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-navmenu {
+  display: none;
+  position: absolute;
+  /*top: 97px;
+  right: 0;
+  width: 100%;
+  text-align: right;
+  background: rgba(255, 255, 255, 0.8);
+  */
+  /*
+  a {
+      display: block;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 16px 0 17px;
+      font-size: 2rem;
+      font-weight: bold;
+      text-decoration: none;
+      color: #333;
+      &:hover {
+          opacity: .9;
+          text-decoration: underline;
+      }
+  }
+  @media (min-width: 768px) {
+      top: 0;
+      right: 0;
+      display: flex !important;
+      flex-direction: row;
+      justify-content: flex-end;
+      background: none;
+  }
+  */
+}
+
+.about {
+  padding: 50px 4% 0;
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .about {
+    margin: 0 auto;
+    padding: 0 20px 0;
+  }
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  .works-container {
+    display: flex;
+  }
+}
+
+.works {
+  padding: 4% 0;
+}
+@media (min-width: 768px) {
+  .works {
+    margin: 0 auto;
+    padding: 50px 20px 0;
+  }
+}
+
+.footertext {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  padding: 4% 0;
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .about {
+    margin: 0 auto;
+    padding: 50px 20px 0;
+  }
+}
+
+.human img {
+  display: block;
+  border-radius: 150px;
+}
+/*# sourceMappingURL=styles.css.map */
